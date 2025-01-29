@@ -160,7 +160,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 476.5
+    "width": 476.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -176,10 +177,10 @@
   "active": "c0168b6774c4a824",
   "lastOpenFiles": [
     "Thesis/Plan.md",
+    "Thesis/Structure.md",
     "SafeCPP/General Questions.md",
     "SafeCPP/Understanding Circle's Borrow Checker.md",
     "SafeCPP/Resources.md",
-    "Thesis/Structure.md",
     "LICENSE",
     "SafeCPP",
     "Thesis",
