@@ -14,5 +14,9 @@
 		- Describe generic steps of creating such a wrapper
 		- Describe the plan for wrapping case study library (HPX)
 	(Maybe describe the plan for using a wrapped library)
-4. Evaluation (of case tu)
+4. Evaluation (of case study library)
+	- Static metrics of code quality/readability
 	- Examples of using the wrapped library
+	- Showcase prevented possible bugs 
+	- Survey around usefulness/Usability of wrapper
+5. 
