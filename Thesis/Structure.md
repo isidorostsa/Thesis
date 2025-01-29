@@ -19,4 +19,6 @@
 	- Examples of using the wrapped library
 	- Showcase prevented possible bugs 
 	- Survey around usefulness/Usability of wrapper
-5. 
+5. Conclusion
+	- Achieved relative safety and protection from common bugs
+	- Compatibility with a wider ecosystem.
