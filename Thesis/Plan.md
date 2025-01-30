@@ -1,7 +1,7 @@
 Write a small document explaining to Sean what I want to do and what I would like from him.
 
 I want to:
-- Write wrappers around some hpx facility (probably `hpx::thread` or one of our data structures)
+- Write wrappers around some hpx facility (probably `hpx::thread` or one of our data structures if adding parallelism is too much)
 - Document and assess the difficulty of wrapping existing code.
 - Contrive examples of bugs that are prevented by Safe-C++
 - Document and evaluate the usability of using the lifetime-annotated code, in a way that interoperates with existing c++ code.
