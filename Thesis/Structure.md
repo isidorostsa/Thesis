@@ -16,13 +16,13 @@
 		- Describe generic steps of creating a Safe-C++ wrapper
 		- Describe the plan for wrapping case study library (HPX)
 			- **Keep old interface?**
-1. Evaluation (of case study library)
-	- Compare wrapping vs rewriting
-	- Explore possible bugs in wrapping
-	- Static metrics of code quality/readability
+4. Evaluation (of case study library)
 	- Examples of using the wrapped library
-	- Showcase prevented possible bugs 
-	- Survey around usefulness/Usability of wrapper
-2. Conclusion
+	- Compare wrapping vs rewriting
+	- Explore possible bugs in wrapping, bugs happen at the seams
+	- Static metrics of code quality/readability
+	- Showcase possible bugs prevented
+	- **Survey around usefulness/Usability of wrapper**
+5. Conclusion
 	- Achieved relative safety and protection from common bugs
 	- Compatibility with a wider ecosystem.
