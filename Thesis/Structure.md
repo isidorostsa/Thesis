@@ -1,9 +1,11 @@
 1. Introduction
 	- Infra depends on C++, but C++ needs to be safer
 2. Background and Related work
-	- What is Memory Safety
-	- How can we achieve it
-		- What is being done on that front
+	- What is programming language Safety
+	- Existing solutions
+		- Constraint of solutions
+			- Cannot rewrite billions of LoC
+		- Current solutions
 			- Profiles
 			- Contracts
 			- Static/Runtime analysis
@@ -13,15 +15,20 @@
 	- What is Safe-C++
 3. Methodology
 	- Problem
-		- Safe-C++ needs access to vast existing code through wrappers
+		- Safe-C++ code should interoperate with old C++ code, without much friction.
 	- Solution
+		- Discuss possible solutions
+			- unsafe-blocks
+			- unsafe-types
+			- wrappers
 		- Describe generic steps of creating a Safe-C++ wrapper
-		- Describe the plan for wrapping case study library (HPX)
-			- **Keep old interface?**
+			- SCpp functions are more restrained than Cpp. Wrapping Cpp functions takes away from their functionality, but guarantees safety. e.g. guarantees no aliasing.
+		- Form plan for wrapping case study library (HPX)
+			- **Expose safe parallelism in thesis scope?**
+			- **Retain the existing interface?**
 4. Evaluation of case study wrapper
 	- Examples of using the wrapped library
 		- Example Safe-C++ application
-	- Compare wrapping vs rewriting
 	- Explore possible bugs in wrapping, bugs happen at the seams
 	- Static metrics of code quality/readability
 	- Showcase possible bugs prevented
