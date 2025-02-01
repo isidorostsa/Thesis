@@ -20,6 +20,7 @@
 			- **Keep old interface?**
 4. Evaluation of case study wrapper
 	- Examples of using the wrapped library
+		- Example Safe-C++ application
 	- Compare wrapping vs rewriting
 	- Explore possible bugs in wrapping, bugs happen at the seams
 	- Static metrics of code quality/readability
