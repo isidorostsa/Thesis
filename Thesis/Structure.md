@@ -7,6 +7,7 @@
 			- Profiles
 			- Contracts
 			- Static/Runtime analysis
+			- Cpp-Front
 			- Rust
 		- Shortcomings of current methods
 	- What is Safe-C++
