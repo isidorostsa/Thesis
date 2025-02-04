@@ -22,7 +22,8 @@
 			- unsafe-types
 			- wrappers
 		- Describe generic steps of creating a Safe-C++ wrapper
-			- SCpp functions are more restrained than Cpp. Wrapping Cpp functions takes away from their functionality, but guarantees safety. e.g. guarantees no aliasing.
+			- SCpp functions are more restrained than Cpp. Wrapping Cpp may take away from their functionality, but guarantees safety.
+				- Example: `swap(T& a, T& b)` wrapped with `swap(T^ a, T^ b)`. This does the same thing almost always, but single aliasing borrows force $a \neq b$
 		- Form plan for wrapping case study library (HPX)
 			- **Expose safe parallelism in thesis scope?**
 			- **Retain the existing interface?**
