@@ -4,7 +4,10 @@
 	- What is programming language Safety
 	- Existing solutions
 		- Constraint of solutions
-			- Cannot rewrite billions of LoC
+			- Cannot rewrite billions LoC
+			- New code must be safe
+			- Old code must be usable
+			- No new bugs must be introduced at the seams
 		- Current solutions
 			- Profiles
 			- Contracts
