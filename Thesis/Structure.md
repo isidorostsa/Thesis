@@ -1,5 +1,5 @@
 1. Introduction
-	- Infra depends on C++, but C++ needs to be safer
+	- Infra depends on C++, but C+ + needs to be safer
 2. Background and Related work
 	- What is programming language Safety
 	- Existing solutions
